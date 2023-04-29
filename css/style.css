@@ -42,6 +42,7 @@ img {
   font-size: 30px;
 }
 .bold-text {
+  color: black;
   font-weight: 700;
 }
 .bold-date {
@@ -50,6 +51,10 @@ img {
 }
 .header-p {
   margin-bottom: 20px;
+}
+.header {
+  padding-bottom: 60px;
+  border-bottom: 1px solid black;
 }
 .date-service {
   display: flex;
@@ -71,9 +76,13 @@ img {
   margin-left: auto;
 }
 .amount-second {
-  display: flex;
-  justify-content: flex-end;
+  padding-right: 70px;
   flex-direction: column;
+}
+.border {
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
 }
 .amount-third {
 }
@@ -87,7 +96,10 @@ img {
 }
 
 .service-wrap {
+  padding-top: 50px;
+  padding-bottom: 30px;
   display: flex;
+  justify-content: space-between;
 }
 .service-p {
   font-size: 20px;
@@ -103,7 +115,11 @@ img {
   text-align: right;
 }
 .total-span {
+  color: black;
   font-size: 17px;
+}
+.total {
+  font-size: 40px;
 }
 .total-li {
   display: flex;
@@ -122,7 +138,7 @@ img {
   margin-bottom: 40px;
 }
 .section_summary {
-  padding-bottom: 140px;
+  padding-bottom: 190px;
 }
 .summary-ul {
   display: flex;
@@ -137,7 +153,9 @@ img {
   font-weight: 500;
 }
 .footer {
+  padding-top: 30px;
   padding-bottom: 30px;
+  border-top: 1px solid #000;
 }
 .footer_flex {
   display: flex;
@@ -145,8 +163,10 @@ img {
   justify-content: space-between;
 }
 .footer_h {
+  margin-left: 10px;
   margin-bottom: 22px;
 }
+
 .footer_text:not(:last-child) {
   margin-bottom: 8px;
 }
@@ -173,8 +193,11 @@ img {
 
 .header_wrapper {
   display: flex;
+  justify-content: space-between;
 }
-
+.header_wrapper:not(:last-child) {
+  margin-bottom: 30px;
+}
 .footer {
   padding-bottom: 50px;
 }
@@ -194,9 +217,25 @@ img {
   justify-content: space-between;
   padding-top: 50px;
   padding-bottom: 50px;
+
+  border-top: 1px solid black;
 }
 .footer_conect {
   height: 300px;
   padding-left: 40px;
   border-left: 1px solid black;
+}
+.foot_div {
+  display: flex;
+  align-items: baseline;
+}
+.foot_item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.md-network {
+  padding-left: 20px;
+  border-left: 5px solid rgb(36, 161, 210);
+  border-radius: 0.5ch;
 }
