@@ -63,7 +63,7 @@ img {
 .due-date {
   display: flex;
   align-items: baseline;
-
+  justify-content: space-between;
   margin-bottom: 20px;
 }
 
@@ -84,17 +84,14 @@ img {
   border: 2px solid black;
   border-radius: 5px;
 }
-.amount-third {
-}
 .total-amount {
   display: flex;
   justify-content: flex-end;
 }
 .amount-text {
   margin-bottom: 35px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #000;
 }
-
 .service-wrap {
   padding-top: 50px;
   padding-bottom: 30px;
@@ -107,7 +104,6 @@ img {
 }
 .service_container {
   border-bottom: 1px solid black;
-
   margin-bottom: 55px;
 }
 .count-text {
@@ -119,7 +115,7 @@ img {
   font-size: 17px;
 }
 .total {
-  font-size: 40px;
+  font-size: 34px;
 }
 .total-li {
   display: flex;
@@ -152,9 +148,8 @@ img {
   font-size: 20px;
   font-weight: 500;
 }
-.footer {
+.footer_container {
   padding-top: 30px;
-  padding-bottom: 30px;
   border-top: 1px solid #000;
 }
 .footer_flex {
@@ -163,7 +158,6 @@ img {
   justify-content: space-between;
 }
 .footer_h {
-  margin-left: 10px;
   margin-bottom: 22px;
 }
 
