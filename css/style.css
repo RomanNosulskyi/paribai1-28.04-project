@@ -105,7 +105,7 @@ img {
 }
 .service_container {
   border-bottom: 1px solid black;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 .count-text {
   margin-left: auto;
@@ -132,10 +132,10 @@ img {
   margin-bottom: 8px;
 }
 .section_service {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .section_summary {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 .summary-ul {
   display: flex;
@@ -150,7 +150,7 @@ img {
   font-weight: 500;
 }
 .footer_container {
-  padding-top: 20px;
+  padding-top: 33px;
   border-top: 1px solid #000;
 }
 .footer_flex {
